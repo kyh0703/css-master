@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito|PT+Serif:400,400i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito|PT+Serif:400,400&display=swap");
 @import "_variables";
 @import "_elements";
 
@@ -34,7 +34,7 @@ header {
       cursor: pointer;
       font-size: 20px;
       border-top: 1px solid $black;
-      padding: 20px 0px;
+      padding: 20px 9px;
       @extend %grid;
       &:hover {
         font-style: italic;
